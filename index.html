@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- Primary Meta Tags -->
+  <title>Benne Vignesh — Developer Portfolio | AI &amp; Machine Learning</title>
+  <meta name="title" content="Benne Vignesh — Developer Portfolio | AI &amp; Machine Learning">
+  <meta name="description" content="Personal portfolio of Benne Vignesh, a 2nd year B.Tech student focused on Artificial Intelligence and Machine Learning through hands-on projects.">
+  <meta name="author" content="Benne Vignesh">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Benne Vignesh — Developer Portfolio | AI &amp; Machine Learning">
+  <meta property="og:description" content="2nd year B.Tech student exploring AI &amp; ML through hands-on development and practical projects.">
+  <meta property="og:url" content="https://github.com/vigneshbenne-max">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Accessible Skip Navigation Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ========================================================================
+       1. NAVIGATION HEADER
+       ======================================================================== -->
+  <header class="site-header" id="site-header">
+    <div class="container nav-container">
+      
+      <!-- Brand Logo / Monogram -->
+      <a href="#hero" class="nav-brand" aria-label="Benne Vignesh Home">
+        <span class="brand-monogram">BV</span>
+        <div class="brand-meta">
+          <span class="brand-name">Benne Vignesh</span>
+          <span class="brand-tagline">AI &amp; ML Student</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav-desktop" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#journey" class="nav-link">Journey</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <a href="#contact" class="btn btn-outline-sm nav-cta">Get in Touch</a>
+      </nav>
+
+      <!-- Mobile Hamburger Button -->
+      <button 
+        type="button" 
+        class="nav-toggle" 
+        id="nav-toggle-btn" 
+        aria-label="Toggle navigation menu" 
+        aria-expanded="false" 
+        aria-controls="mobile-menu"
+      >
+        <svg class="nav-toggle-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <div class="mobile-menu-content">
+        <a href="#hero" class="mobile-nav-link">Home</a>
+        <a href="#about" class="mobile-nav-link">About</a>
+        <a href="#projects" class="mobile-nav-link">Projects</a>
+        <a href="#skills" class="mobile-nav-link">Skills</a>
+        <a href="#journey" class="mobile-nav-link">Journey</a>
+        <a href="#contact" class="mobile-nav-link">Contact</a>
+        <a href="#contact" class="btn btn-primary mobile-nav-cta">Get in Touch</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Anchor -->
+  <main id="main-content">
+
+    <!-- ======================================================================
+         2. HERO SECTION
+         ====================================================================== -->
+    <section class="section hero-section" id="hero">
+      <div class="container">
+        <div class="hero-content">
+
+          <h1 class="hero-title">Building Practical AI Solutions.</h1>
+          
+          <p class="hero-description">
+            I'm a B.Tech student exploring artificial intelligence and machine learning through hands-on projects and continuous learning.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>Explore Projects</span>
+              <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+              </svg>
+            </a>
+
+            <!-- EDITABLE: GitHub Profile Link -->
+            <a href="https://github.com/vigneshbenne-max" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+              </svg>
+              <span>GitHub Profile</span>
+            </a>
+          </div>
+
+          <!-- Academic & Career Quick Meta Grid -->
+          <div class="hero-meta-grid">
+            <div class="hero-meta-item">
+              <span class="meta-label">Current Academic Level</span>
+              <span class="meta-value">2nd Year B.Tech Student</span>
+            </div>
+            <div class="hero-meta-item">
+              <span class="meta-label">Primary Specialization</span>
+              <span class="meta-value">Artificial Intelligence &amp; Machine Learning</span>
+            </div>
+            <div class="hero-meta-item">
+              <span class="meta-label">Approach</span>
+              <span class="meta-value">Practical Code &amp; Project-Based Learning</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         3. ABOUT SECTION
+         ====================================================================== -->
+    <section class="section section-subtle" id="about">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-eyebrow">About Me</span>
+          <h2 class="section-title">Bridging Foundations with Real-World Code</h2>
+          <p class="section-lead">
+            A student's perspective on exploring artificial intelligence through curiosity, experimentation, and honest effort.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          
+          <!-- Narrative Column -->
+          <div class="about-text">
+            <p>
+              Hello! I am <strong>Benne Vignesh</strong>, a second-year undergraduate pursuing my B.Tech degree with an active focus on <strong>Artificial Intelligence and Machine Learning</strong>.
+            </p>
+            <p>
+              My journey began with curious questions about how modern computational systems understand language and numerical trends. Rather than merely consuming high-level theory, I strongly believe that the most solid understanding comes from <em>building practical projects</em>—writing code, preprocessing messy data, tuning algorithms, and seeing where models succeed or fail.
+            </p>
+            <p>
+              I take pride in writing clear, understandable Python code, exploring core machine learning libraries, and documenting my learning process honestly. Outside of structured coursework, I spend my time experimenting with local machine learning prototypes and exploring new ways to solve genuine everyday challenges with software.
+            </p>
+          </div>
+
+          <!-- Highlights Column -->
+          <div class="about-highlights">
+            
+            <div class="highlight-card">
+              <div class="highlight-icon">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                </svg>
+              </div>
+              <h3 class="highlight-title">Applied Machine Learning</h3>
+              <p class="highlight-desc">
+                Constructing practical models using algorithms like Naive Bayes and vectorizers like TF-IDF, connecting math to working code.
+              </p>
+            </div>
+
+            <div class="highlight-card">
+              <div class="highlight-icon">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                </svg>
+              </div>
+              <h3 class="highlight-title">Data Understanding</h3>
+              <p class="highlight-desc">
+                Investigating structured numerical and textual data using pandas and NumPy to uncover distributions and anomalies.
+              </p>
+            </div>
+
+            <div class="highlight-card">
+              <div class="highlight-icon">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                </svg>
+              </div>
+              <h3 class="highlight-title">End-to-End Prototypes</h3>
+              <p class="highlight-desc">
+                Serving trained models through lightweight web interfaces such as Flask and Streamlit to make ML interactive.
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         4. FEATURED PROJECTS SECTION
+         ====================================================================== -->
+    <section class="section" id="projects">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-eyebrow">Projects</span>
+          <h2 class="section-title">Featured Work &amp; Concepts</h2>
+          <p class="section-lead">
+            An honest look at my development work and planned exploratory systems in machine learning.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         5. SKILLS SECTION
+         ====================================================================== -->
+    <section class="section section-subtle" id="skills">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-eyebrow">Skills &amp; Toolset</span>
+          <h2 class="section-title">Current Learning Stack</h2>
+          <p class="section-lead">
+            Technologies, libraries, and developer tools I actively use and study through academic coursework and practical projects.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          
+          <!-- Skill Group 1: Programming -->
+          <div class="skill-card">
+            <div class="skill-category-header">
+              <div class="skill-category-icon">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                </svg>
+              </div>
+              <h3 class="skill-category-title">Programming</h3>
+            </div>
+            <div class="skill-items-list">
+              <!-- EDITABLE: Add or edit programming languages here -->
+              <div class="skill-item">
+                <span class="skill-name">Python</span>
+                <span class="skill-context">Core language</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Group 2: Machine Learning -->
+          <div class="skill-card">
+            <div class="skill-category-header">
+              <div class="skill-category-icon">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+              </div>
+              <h3 class="skill-category-title">Machine Learning</h3>
+            </div>
+            <div class="skill-items-list">
+              <!-- EDITABLE: Add or edit ML techniques here -->
+              <div class="skill-item">
+                <span class="skill-name">scikit-learn</span>
+                <span class="skill-context">Model training</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">TF-IDF</span>
+                <span class="skill-context">Feature extraction</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Naive Bayes</span>
+                <span class="skill-context">Classification</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Group 3: Data Analysis -->
+          <div class="skill-card">
+            <div class="skill-category-header">
+              <div class="skill-category-icon">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M16 8v8m-4-5v5m-4-2v2m-2 4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+              </div>
+              <h3 class="skill-category-title">Data Analysis</h3>
+            </div>
+            <div class="skill-items-list">
+              <!-- EDITABLE: Add or edit data libraries here -->
+              <div class="skill-item">
+                <span class="skill-name">pandas</span>
+                <span class="skill-context">DataFrames &amp; cleaning</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">NumPy</span>
+                <span class="skill-context">Numerical computing</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Group 4: Tools -->
+          <div class="skill-card">
+            <div class="skill-category-header">
+              <div class="skill-category-icon">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+              </div>
+              <h3 class="skill-category-title">Tools</h3>
+            </div>
+            <div class="skill-items-list">
+              <!-- EDITABLE: Add or edit development tools here -->
+              <div class="skill-item">
+                <span class="skill-name">VS Code</span>
+                <span class="skill-context">Primary editor</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Git</span>
+                <span class="skill-context">Version control</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">GitHub</span>
+                <span class="skill-context">Code hosting &amp; collaboration</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Honest Disclaimer -->
+        <div class="skills-disclaimer">
+          <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          <p>
+            <strong>Note on proficiency:</strong> These skills represent my active learning toolset and areas of ongoing practice, rather than assertions of senior expertise. My focus remains on expanding my depth with each project I build.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         6. LEARNING JOURNEY SECTION
+         ====================================================================== -->
+    <section class="section" id="journey">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-eyebrow">Progression</span>
+          <h2 class="section-title">My Learning Journey</h2>
+          <p class="section-lead">
+            A step-by-step commitment to advancing my programming, machine learning, and software development skills through deliberate, practical problem solving.
+          </p>
+        </div>
+
+        <div class="journey-container">
+          
+          <!-- Step 1 -->
+          <div class="journey-step">
+            <div class="journey-marker">
+              <span class="journey-marker-inner"></span>
+            </div>
+            <div class="journey-meta">
+              <span class="journey-step-number">MILESTONE 01</span>
+              <span class="journey-tag">Core Fundamentals</span>
+            </div>
+            <h3 class="journey-title">Establishing Programming &amp; Mathematical Baselines</h3>
+            <p class="journey-desc">
+              Began undergraduate studies in engineering, mastering Python syntax, data structures, and the mathematical intuitions (linear algebra and probability) essential for machine learning.
+            </p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="journey-step active">
+            <div class="journey-marker">
+              <span class="journey-marker-inner"></span>
+            </div>
+            <div class="journey-meta">
+              <span class="journey-step-number">MILESTONE 02</span>
+              <span class="journey-tag">Applied ML &amp; NLP</span>
+            </div>
+            <h3 class="journey-title">Applied NLP &amp; Supervised Classification</h3>
+            <p class="journey-desc">
+              Bridged theory with practical application by training Naive Bayes models on TF-IDF transformed text, exploring classification pipelines and local inference.
+            </p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="journey-step">
+            <div class="journey-marker">
+              <span class="journey-marker-inner"></span>
+            </div>
+            <div class="journey-meta">
+              <span class="journey-step-number">MILESTONE 03</span>
+              <span class="journey-tag">Current Horizon &bull; Data Exploration</span>
+            </div>
+            <h3 class="journey-title">Numerical Pattern Recognition &amp; Anomaly Detection</h3>
+            <p class="journey-desc">
+              Expanding data exploration capabilities using pandas and NumPy, actively developing anomaly detection and exploratory dashboards with scikit-learn and Streamlit.
+            </p>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="journey-step">
+            <div class="journey-marker">
+              <span class="journey-marker-inner"></span>
+            </div>
+            <div class="journey-meta">
+              <span class="journey-step-number">MILESTONE 04</span>
+              <span class="journey-tag">Looking Ahead</span>
+            </div>
+            <h3 class="journey-title">Deep Learning &amp; End-to-End AI Engineering</h3>
+            <p class="journey-desc">
+              Future roadmap includes exploring neural network architectures, model containerization, CI/CD for ML pipelines, and contributing to open-source developer ecosystems.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         7. CONTACT SECTION
+         ====================================================================== -->
+    <section class="section section-subtle" id="contact">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-eyebrow">Connect</span>
+          <h2 class="section-title">Let's Get in Touch</h2>
+          <p class="section-lead">
+            Whether you have questions about my projects, feedback on my work, or opportunities for academic collaboration, I'd love to hear from you.
+          </p>
+        </div>
+
+        <div class="contact-layout">
+          
+          <div class="contact-info">
+            <p>
+              I am always eager to connect with fellow students, engineers, and mentors in the AI/ML community. Feel free to reach out directly via email or connect on LinkedIn and GitHub.
+            </p>
+            <p>
+              I make an effort to respond thoughtfully to all inquiries and feedback.
+            </p>
+          </div>
+
+          <!-- Contact Cards Grid -->
+          <div class="contact-cards-grid">
+            
+            <!-- Email Card -->
+            <div class="contact-card">
+              <div class="contact-card-left">
+                <div class="contact-card-icon">
+                  <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-card-label">Direct Email</div>
+                  <!-- EDITABLE: Email Address -->
+                  <div class="contact-card-value">vigneshbenne@gmail.com</div>
+                </div>
+              </div>
+              <div class="contact-card-action">
+                <button type="button" class="btn btn-outline-sm btn-copy-email" aria-label="Copy email address to clipboard">
+                  Copy
+                </button>
+              </div>
+            </div>
+
+            <!-- LinkedIn Card -->
+            <div class="contact-card">
+              <div class="contact-card-left">
+                <div class="contact-card-icon">
+                  <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-card-label">LinkedIn</div>
+                  <!-- EDITABLE: LinkedIn URL -->
+                  <div class="contact-card-value">vignesh-benne</div>
+                </div>
+              </div>
+              <div class="contact-card-action">
+                <a href="https://www.linkedin.com/in/vignesh-benne-50563b446" target="_blank" rel="noopener noreferrer" class="btn btn-outline-sm" aria-label="Visit LinkedIn profile">
+                  Visit &rarr;
+                </a>
+              </div>
+            </div>
+
+            <!-- GitHub Card -->
+            <div class="contact-card">
+              <div class="contact-card-left">
+                <div class="contact-card-icon">
+                  <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-card-label">GitHub</div>
+                  <!-- EDITABLE: GitHub Handle -->
+                  <div class="contact-card-value">vigneshbenne-max</div>
+                </div>
+              </div>
+              <div class="contact-card-action">
+                <a href="https://github.com/vigneshbenne-max" target="_blank" rel="noopener noreferrer" class="btn btn-outline-sm" aria-label="Visit GitHub profile">
+                  Visit &rarr;
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================================
+       8. FOOTER
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-name">Benne Vignesh</span>
+          <span class="footer-desc">2nd Year B.Tech Student &bull; Artificial Intelligence and Machine Learning</span>
+        </div>
+
+        <nav class="footer-links" aria-label="Footer Navigation">
+          <a href="#hero" class="footer-link">Home</a>
+          <a href="#about" class="footer-link">About</a>
+          <a href="#projects" class="footer-link">Projects</a>
+          <a href="#skills" class="footer-link">Skills</a>
+          <a href="#journey" class="footer-link">Journey</a>
+          <a href="#contact" class="footer-link">Contact</a>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; <span id="current-year">2026</span> Benne Vignesh. Built with HTML, CSS, and Vanilla JavaScript.
+        </div>
+
+        <button type="button" class="back-to-top-btn" id="back-to-top-btn" aria-label="Scroll back to top">
+          <span>Back to Top</span>
+          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+          </svg>
+        </button>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Toast Notice for Copy Actions -->
+  <div class="toast-notice" id="toast-notice" role="status" aria-live="polite"></div>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
