@@ -6,7 +6,7 @@ Built with pure **HTML5, CSS3, and vanilla JavaScript** — zero frameworks, zer
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 portfolio_1/
@@ -21,7 +21,7 @@ portfolio_1/
 
 ---
 
-## 🚀 How to Run & Preview the Website Locally
+## How to Run & Preview the Website Locally
 
 Since this website is built with standard web technologies (HTML/CSS/JS), there is no compilation or build step required.
 
@@ -44,7 +44,7 @@ Then visit `http://localhost:8000` in your browser.
 
 ---
 
-## ✏️ How to Customize and Edit Your Information
+## How to Customize and Edit Your Information
 
 All editable regions are marked with clear HTML comments (`<!-- EDITABLE: ... -->`) inside [index.html](index.html).
 
@@ -71,7 +71,7 @@ In [index.html](index.html):
 
 ---
 
-## 🌐 How to Publish for Free Using GitHub Pages
+## How to Publish for Free Using GitHub Pages
 
 Publish your portfolio to the web under your personal GitHub URL (`https://vigneshbenne-max.github.io` or `https://vigneshbenne-max.github.io/portfolio`):
 
@@ -109,7 +109,7 @@ git push -u origin main
 
 ---
 
-## 💡 Key Design & Accessibility Highlights
+## Key Design & Accessibility Highlights
 
 - **Clean Aesthetic:** Pure white background, charcoal typography (`#0f172a`, `#334155`), and restrained engineering blue accents (`#1d4ed8`).
 - **Zero Jargon or Inflation:** Completely honest presentation of 2nd year B.Tech coursework, current learning, and active prototypes without exaggerated claims or fake metrics.
